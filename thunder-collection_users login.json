@@ -1,0 +1,159 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "users login",
+    "collectionId": "a0b133bc-7d6e-4443-9d70-ae8a559b0941",
+    "dateExported": "2024-12-10T21:01:12.940Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "85f941e6-f07e-4966-957f-f39b980ce9b5",
+            "colId": "a0b133bc-7d6e-4443-9d70-ae8a559b0941",
+            "containerId": "",
+            "name": "GET users",
+            "url": "http://localhost:3000/users",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-12-10T20:09:05.618Z",
+            "modified": "2024-12-10T20:09:05.618Z",
+            "headers": []
+        },
+        {
+            "_id": "04be4494-e4f7-4c60-a5fc-67a09f630b3b",
+            "colId": "a0b133bc-7d6e-4443-9d70-ae8a559b0941",
+            "containerId": "",
+            "name": "Create success",
+            "url": "http://localhost:3000/users",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-12-10T20:19:32.543Z",
+            "modified": "2024-12-10T20:19:32.543Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n  \"password\": \"abc123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "349c1c43-7ebc-404d-9b0a-35b94fc297c0",
+            "colId": "a0b133bc-7d6e-4443-9d70-ae8a559b0941",
+            "containerId": "",
+            "name": "Login missing name",
+            "url": "http://localhost:3000/users/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-12-10T20:41:35.559Z",
+            "modified": "2024-12-10T20:41:35.559Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"abc123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c9c11a33-56de-490d-abb8-6b50994d5a66",
+            "colId": "a0b133bc-7d6e-4443-9d70-ae8a559b0941",
+            "containerId": "",
+            "name": "Login missing password",
+            "url": "http://localhost:3000/users/login",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-12-10T20:42:10.750Z",
+            "modified": "2024-12-10T20:42:10.750Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Teszt Elek\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "2ce3a433-b4c0-4698-a8db-23402b7ed3ea",
+            "colId": "a0b133bc-7d6e-4443-9d70-ae8a559b0941",
+            "containerId": "",
+            "name": "Login wrong password",
+            "url": "http://localhost:3000/users/login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-12-10T20:44:11.055Z",
+            "modified": "2024-12-10T20:44:11.055Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Teszt Elek\",\n  \"password\": \"abc\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3a48eb2a-7243-4b95-ae97-cce3fb1203e3",
+            "colId": "a0b133bc-7d6e-4443-9d70-ae8a559b0941",
+            "containerId": "",
+            "name": "Login wrong username",
+            "url": "http://localhost:3000/users/login",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-12-10T20:51:19.366Z",
+            "modified": "2024-12-10T20:51:19.366Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Teszt\",\n  \"password\": \"abc123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b7521b39-369d-40aa-bc89-9bae599cd936",
+            "colId": "a0b133bc-7d6e-4443-9d70-ae8a559b0941",
+            "containerId": "",
+            "name": "Login success",
+            "url": "http://localhost:3000/users/login",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-12-10T20:53:17.071Z",
+            "modified": "2024-12-10T20:53:17.071Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Teszt Elek\",\n  \"password\": \"abc123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "2e744298-dfaf-43fe-a700-882e5c8019bf",
+            "colId": "a0b133bc-7d6e-4443-9d70-ae8a559b0941",
+            "containerId": "",
+            "name": "Create missing name",
+            "url": "http://localhost:3000/users",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-12-10T20:58:59.894Z",
+            "modified": "2024-12-10T20:58:59.894Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"abc123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "66513f9b-eb95-4180-af00-42e4a5952c35",
+            "colId": "a0b133bc-7d6e-4443-9d70-ae8a559b0941",
+            "containerId": "",
+            "name": "Create missing password",
+            "url": "http://localhost:3000/users",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-12-10T20:59:31.623Z",
+            "modified": "2024-12-10T20:59:31.623Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Teszt Elek\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "9ZqEy5Qp109-T-dx4gk3nSmvsPBKgPM5zKKDX0PLlWzYEiy4p37int49uJma1w4-TdTzQsv7Vk236R03kAAngQ"
+}
